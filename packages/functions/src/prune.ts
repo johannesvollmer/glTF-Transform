@@ -79,8 +79,6 @@ const PRUNE_DEFAULTS: Required<PruneOptions> = {
  * document.getRoot().listMaterials(); // → [Material]
  * ```
  *
- * No options are currently implemented for this function.
- *
  * @category Transforms
  */
 export function prune(_options: PruneOptions = PRUNE_DEFAULTS): Transform {
